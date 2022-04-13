@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:tabMode="scrollable"
+        app:tabBackground="@color/white"
+        app:tabIndicatorColor="@color/teal_700"
+        app:tabTextColor="@color/black"
+        app:tabSelectedTextColor="@color/teal_200"
+        android:id="@+id/tablayout">
+
+    <com.google.android.material.tabs.TabItem
+        android:text="第一项"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/item1"/>
+
+    <com.google.android.material.tabs.TabItem
+        android:text="第二项"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/item2"/>
+
+    <com.google.android.material.tabs.TabItem
+        android:text="第三项"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/item3"/>
+
+    <com.google.android.material.tabs.TabItem
+        android:text="第四项"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/item4"/>
+
+    <com.google.android.material.tabs.TabItem
+        android:text="第五项"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/item5"/>
+
+    <com.google.android.material.tabs.TabItem
+        android:text="第六项"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/item6"/>
+
+    <com.google.android.material.tabs.TabItem
+        android:text="第七项"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/item7"/>
+
+    </com.google.android.material.tabs.TabLayout>
+
+</LinearLayout>
