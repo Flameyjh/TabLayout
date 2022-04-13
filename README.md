@@ -1,0 +1,2 @@
+# TabLayout
+TabLayout的基本使用：提供了一个水平布局用于展示tabs，继承自HorizontalScrollView。一般与Viewpager结合使用实现页面和标签联动的效果
